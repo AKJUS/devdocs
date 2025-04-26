@@ -2,8 +2,8 @@ source 'https://rubygems.org'
 ruby '3.4.3'
 
 gem 'activesupport', require: false
-gem 'html-pipeline'
-gem 'nokogiri'
+gem 'html-pipeline', '>= 3.0.0'
+gem 'nokogiri', '>= 1.18.8'
 gem 'pry-byebug'
 gem 'rake'
 gem 'terminal-table'
