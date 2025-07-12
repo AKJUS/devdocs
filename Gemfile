@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby '3.4.3'
 
 gem 'activesupport', require: false
-gem 'html-pipeline'
+gem 'html-pipeline', '>= 3.0.0'
 gem 'nokogiri'
 gem 'pry-byebug'
 gem 'rake'
@@ -21,12 +21,12 @@ group :app do
   gem 'rack'
   gem 'rss'
   gem 'sass'
-  gem 'sinatra-contrib'
-  gem 'sinatra'
+  gem 'sinatra-contrib', '>= 4.0.0'
+  gem 'sinatra', '>= 4.0.0'
   gem 'sprockets-helpers'
   gem 'sprockets-sass'
-  gem 'sprockets'
-  gem 'thin'
+  gem 'sprockets', '>= 4.2.0'
+  gem 'thin', '>= 2.0.0'
 end
 
 group :production do
