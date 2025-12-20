@@ -19,7 +19,7 @@ group :app do
   gem 'image_optim'
   gem 'rack-ssl-enforcer'
   gem 'rack'
-  gem 'rss'
+  gem 'rss', '>= 0.3.2'
   gem 'sass'
   gem 'sinatra-contrib'
   gem 'sinatra'
