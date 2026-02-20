@@ -92,7 +92,7 @@ GEM
     redcarpet (3.6.1)
     reline (0.6.0)
       io-console (~> 0.5)
-    rexml (3.3.9)
+    rexml (3.4.2)
     rouge (1.11.1)
     rr (3.1.2)
     rss (0.3.1)
