@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 ruby '3.4.8'
 
-gem 'activesupport', require: false
-gem 'html-pipeline'
+gem 'activesupport', '>= 7.2.3.1', require: false
+gem 'html-pipeline', '>= 3.0.0'
 gem 'nokogiri'
 gem 'pry-byebug'
 gem 'rake'
